@@ -1,49 +1,5 @@
 import { ApolloServer, gql } from 'apollo-server'
-
-const questions = [
-  {
-    id: "12",
-    subject: "chemistry",
-    examtype: "utme",
-    examyear: "2005",
-    question: "Natural water collected from rivers and ponds contains oxygen, carbon(IV) oxide and",
-    option: {
-      a: "Chlorine",
-      b: "Hydrogen",
-      c: "Sulphur(IV) oxide",
-      d: "Nitrogen"
-      },
-    answer: "c"
-  },
-  {
-    id: "13",
-    subject: "chemistry",
-    examtype: "waec",
-    examyear: "2003",
-    question: "Which of the following statements is true of sulphur (IV) oxide",
-    option: {
-      a: "It forms Tetraoxosulphate (VI) acid with water",
-      b: "It is an odourless gas",
-      c: "It is an acid anhydride",
-      d: "It forms white precipitate with acidified barium chloride"
-      },
-    answer: "c"
-  },
-  {
-    id: "14",
-    subject: "physics",
-    examtype: "utme",
-    examyear: "2010",
-    question: "The most likely measurement of length of an object using a venier caliper is: ",
-    option: {
-      a: "3.0cm ",
-      b: "3.3cm ",
-      c: "3.33cm ",
-      d: "3.333cm"
-    },
-    answer: "b"
-  }
-]
+import questions from './questions'
 
 const typeDefs = gql`
   type optionvalues {
