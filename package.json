@@ -11,7 +11,7 @@
   "keywords": [],
   "author": "Gbolahan Olawuyi",
   "email": "gbolahanolawuyi4u@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "apollo-server": "^2.1.0",
     "graphql": "^14.0.2",
