@@ -1,0 +1,25 @@
+{
+  "name": "Past_Questions_GraphQL_API",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node --presets=preset-env",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "keywords": [],
+  "author": "Gbolahan Olawuyi",
+  "email": "gbolahanolawuyi4u@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.1.0",
+    "graphql": "^14.0.2",
+    "nodemon": "^1.18.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0"
+  }
+}
